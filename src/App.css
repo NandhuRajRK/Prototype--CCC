@@ -1,0 +1,148 @@
+/* General Body Style */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container for Page Content */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Health Score Circle */
+.health-score-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #ebeff3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #5C7AEA;
+  margin: 0 auto 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Nutrition Summary */
+.nutrition-summary div {
+  text-align: center;
+  padding: 10px;
+}
+
+.nutrition-summary div h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+}
+
+.nutrition-summary div p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Buttons and Links */
+.button,
+a.button {
+  text-decoration: none;
+  padding: 12px 20px;
+  text-align: center;
+  color: white;
+  background-color: #5C7AEA;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.button:hover {
+  background-color: #4CAF93;
+}
+
+/* Result and List Items */
+.restaurant-item,
+.alternative-item,
+.ingredient-item,
+.modification-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.restaurant-item h3, .alternative-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.restaurant-item p, .alternative-item p {
+  font-size: 14px;
+  color: #777;
+}
+
+.filters button {
+  padding: 10px;
+  background-color: #ebeff3;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #5C7AEA;
+  color: white;
+}
+
+.upload-section label {
+  background-color: #5C7AEA;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.upload-section input[type="file"] {
+  display: none;
+}
+
+/* Center the text for health score */
+.health-score {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.health-score-circle {
+  margin: 0 auto 15px; /* Ensure the circle is also centered */
+}
+
+.health-score p {
+  font-size: 16px;
+  color: #666;
+}
